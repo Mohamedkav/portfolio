@@ -4,23 +4,17 @@ import { motion } from "framer-motion"
 
 export default function Skills({ mode = "tech" }) {
   const techSkills = [
-    { name: "React", icon: "/logos/react.svg", level: 90 },
-    { name: "Vue.js", icon: "/logos/vue.svg", level: 85 },
-    { name: "Next.js", icon: "/logos/next.svg", level: 80 },
-    { name: "Node.js", icon: "/logos/nodejs.svg", level: 85 },
-    { name: "MongoDB", icon: "/logos/mongodb.svg", level: 80 },
-    { name: "Express", icon: "/logos/express.svg", level: 85 },
-    { name: "JavaScript", icon: "/logos/javascript.svg", level: 95 },
-    { name: "HTML5", icon: "/logos/html5.svg", level: 95 },
-    { name: "CSS3", icon: "/logos/css3.svg", level: 90 },
-    { name: "Tailwind", icon: "/logos/tailwind.svg", level: 90 },
-    { name: "Vite", icon: "/logos/vite.svg", level: 85 },
-    { name: "Firebase", icon: "/logos/firebase.svg", level: 75 },
-    { name: "AWS", icon: "/logos/aws.svg", level: 70 },
-    { name: "Figma", icon: "/logos/figma.svg", level: 90 },
-    { name: "Git", icon: "/logos/git.svg", level: 85 },
-    { name: "Jira", icon: "/logos/jira.svg", level: 90 },
-  ]
+    { name: "Python", icon: "/logos/python.svg", level: 90 },
+    { name: "Selenium", icon: "/logos/selenium.svg", level: 90 },
+    { name: "Playwright", icon: "/logos/playwright.svg", level: 85 },
+    { name: "Cucumber", icon: "/logos/cucumber.svg", level: 75 },
+    { name: "MySQL", icon: "/logos/mysql.svg", level: 80 },
+    { name: "Git", icon: "/logos/git.svg", level: 80 },
+    { name: "GitHub", icon: "/logos/github.svg", level: 80 },
+    { name: "Jira", icon: "/logos/jira.svg", level: 85 },
+    { name: "VS Code", icon: "/logos/vscode.svg", level: 90 },
+  ];
+
 
   const environmentalSkills = [
     {

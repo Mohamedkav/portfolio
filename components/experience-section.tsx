@@ -16,13 +16,13 @@ const experiences = [
     technologies: ["Python", "Data Processing", "SQL", "Data Analysis"],
   },
   {
-    title: "Freelance Web Developer",
-    company: "Self-Employed",
-    location: "Remote",
-    period: "2023 - Present",
+    title: "QA Tester",
+    company: "Zoonest Technologies Pvt.Ltd",
+    location: "Trichy, India",
+    period: "2025 - Present",
     description:
-      "Developing custom web applications for clients using modern technologies. Creating responsive websites, implementing database solutions, and providing technical consulting services.",
-    technologies: ["Python", "JavaScript", "HTML5", "CSS3", "MySQL", "FastAPI"],
+      "QA Tester with 1 year of experience in manual and automation testing. Skilled in Selenium, Playwright, Python, SQL, test case design, defect tracking, and basic automation frameworks. Experienced in collaborating with development teams to ensure software quality, functionality, and reliability",
+    technologies: ["Selenium", "Playwright", "Python", "SQL", "Manual Testing", "Automation Testing", "Jira", "Git"],
   },
 ]
 

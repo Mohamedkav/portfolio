@@ -88,7 +88,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 1 }}
             className="text-lg text-muted-foreground mb-8 max-w-2xl text-pretty"
           >
-            Computer Science Engineering graduate with strong skills in Python, Selenium
+            Computer Science Engineering graduate with strong skills in Python, Selenium, Playwright,
             and SQL. Passionate about developing efficient programs and managing
             databases with a keen interest in solving real-world problems
             through technology.
@@ -124,7 +124,7 @@ export default function HeroSection() {
             className="flex justify-center lg:justify-start gap-6"
           >
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Mohamedkav5"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-accent transition-all duration-300 hover:scale-110 group"

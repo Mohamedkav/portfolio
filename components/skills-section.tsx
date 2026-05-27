@@ -1,26 +1,20 @@
 "use client"
-
+import { Icon } from "@iconify/react"
 import { motion } from "framer-motion"
 
 export default function SkillsSection() {
   const skills = [
     { name: "Python", icon: "logos:python", level: 90 },
-    { name: "JavaScript", icon: "logos:javascript", level: 85 },
-    { name: "React", icon: "logos:react", level: 80 },
-    { name: "HTML5", icon: "logos:html-5", level: 90 },
-    { name: "CSS3", icon: "logos:css-3", level: 85 },
-    { name: "Tailwind CSS", icon: "logos:tailwindcss-icon", level: 80 },
-    { name: "Node.js", icon: "logos:nodejs-icon", level: 75 },
-    { name: "Express.js", icon: "logos:express", level: 75 },
-    { name: "FastAPI", icon: "logos:fastapi-icon", level: 70 },
-    { name: "MySQL", icon: "logos:mysql-icon", level: 85 },
-    { name: "MongoDB", icon: "logos:mongodb-icon", level: 75 },
+    { name: "Selenium", icon: "logos:selenium", level: 90 },
+    { name: "Playwright", icon: "logos:playwright", level: 85 },
+    { name: "Cucumber", icon: "logos:cucumber", level: 75 },
+    { name: "MySQL", icon: "logos:mysql-icon", level: 80 },
     { name: "Git", icon: "logos:git-icon", level: 80 },
     { name: "GitHub", icon: "logos:github-icon", level: 80 },
+    { name: "Jira", icon: "logos:jira", level: 85 },
     { name: "VS Code", icon: "logos:visual-studio-code", level: 90 },
-    { name: "Jest", icon: "logos:jest", level: 65 },
-    { name: "Webpack", icon: "logos:webpack", level: 60 },
-  ]
+  ];
+
 
   return (
     <section id="skills" className="py-20 relative">
@@ -63,7 +57,8 @@ export default function SkillsSection() {
               >
                 <div className="flex items-center mb-4">
                   <div className="w-10 h-10 mr-3">
-                    <iconify-icon icon={skill.icon} width="40" height="40" className="w-full h-full" />
+                    {/* <iconify-icon icon={skill.icon} width="40" height="40" className="w-full h-full" >  </iconify-icon> */}
+                    <Icon icon={skill.icon} width="40" height="40" className="w-full h-full" />
                   </div>
                   <h3 className="font-medium">{skill.name}</h3>
                 </div>
@@ -86,3 +81,4 @@ export default function SkillsSection() {
     </section>
   )
 }
+

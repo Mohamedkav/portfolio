@@ -14,18 +14,31 @@ const projects = [
       "https://img.freepik.com/free-vector/server-room-cloud-storage-icon-datacenter-database-concept-data-exchange-process_39422-556.jpg?t=st=1757433717~exp=1757437317~hmac=a3e456be68643a9e12d356d159adcc5689f92706a60da54d16baa0365717728e&w=2000",
     technologies: ["MySQL", "PowerBI", "Data Analysis", "SQL", "ETL"],
   },
+  // {
+  //   title: "Personal Portfolio",
+  //   description:
+  //     "A modern, responsive portfolio website showcasing my projects and technical skills. Built with cutting-edge web technologies including Next.js, Framer Motion for animations, and Tailwind CSS for styling. Features dark theme, smooth animations, and optimized performance.",
+  //   image: "/portfolio-project.png",
+  //   technologies: [
+  //     "Next.js",
+  //     "Framer Motion",
+  //     "Tailwind CSS",
+  //     "TypeScript",
+  //     "React",
+  //   ],
+  // },
   {
-    title: "Personal Portfolio",
+    title: "Wedding Hall Booking System",
     description:
-      "A modern, responsive portfolio website showcasing my projects and technical skills. Built with cutting-edge web technologies including Next.js, Framer Motion for animations, and Tailwind CSS for styling. Features dark theme, smooth animations, and optimized performance.",
-    image: "/portfolio-project.png",
+      "A modern wedding hall booking web application developed for my own business using React, Tailwind CSS, and Framer Motion. The platform allows customers to check availability and book events online with a smooth, responsive, and user-friendly experience.",
+    image: "/marriage_hall.png",
     technologies: [
-      "Next.js",
-      "Framer Motion",
+      "React",
       "Tailwind CSS",
       "TypeScript",
-      "React",
+      "Supabase",
     ],
+    url: "https://kavfathimamahal.in"
   },
 ];
 
@@ -58,6 +71,10 @@ export default function ProjectsSection() {
               transition={{ duration: 0.8, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
+              
+
+                
+              
               <Card className="h-full hover:shadow-xl transition-all duration-300 group overflow-hidden">
                 <div className="relative overflow-hidden">
                   <Image
@@ -74,6 +91,7 @@ export default function ProjectsSection() {
                   <CardTitle className="text-xl group-hover:text-accent transition-colors">
                     {project.title}
                   </CardTitle>
+                  {project.url && <a href={project.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:cursor-pointer hover:text-blue-300 hover:underline" >Hosted site</a>}
                 </CardHeader>
 
                 <CardContent className="space-y-4">
